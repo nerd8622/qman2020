@@ -112,11 +112,13 @@ h4{
 h5{
 	text-align: center;
 	font-family: "Zilla Slab" , sans-serif;
-	font-size: 30x;
+	font-size: 30px;
 	color: rgb(255, 96, 26);
 	position: relative;
-	margin-top: -650px;
+	margin-top: -360px;
 	margin-bottom: -500px;
+	margin-left: 150px;
+	margin-right: 150px;
 }
 @media only screen and (max-device-width: 1366px){
 	.img-container{
