@@ -45,7 +45,6 @@ button:hover{
 	color: white;
 }
 .logo2{
-	background-image: url(2020Logo_transparent.png);
 	height: 100%;
 	background-repeat: no-repeat;
 	bottom: 20px;
@@ -133,6 +132,12 @@ h6{
 	position: relative;
 	margin-left: 150px;
 	margin-right: 150px;
+}
+
+@media screen and (min-width: 800px) { 
+	.logo2{
+		background-image: url(2020Logo_transparent.png);
+	}
 }
 
 @media only screen and (max-width: 1000px){
