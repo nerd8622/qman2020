@@ -134,7 +134,7 @@ h6{
 	margin-right: 150px;
 }
 
-@media screen and (min-width: 800px) { 
+@media screen and (min-width: 1540px) { 
 	.logo2{
 		background-image: url(2020Logo_transparent.png);
 	}
