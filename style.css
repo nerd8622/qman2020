@@ -16,6 +16,13 @@ body{
 	position: relative;
 }
 
+@media (min-width: 420px) {
+	img{
+		max-width: auto;
+		height: auto;
+	}
+}
+
 .logo-container{
 	background-image: url(2020Logo_transparent.png);
 	height: 100%;
