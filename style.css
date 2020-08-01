@@ -15,12 +15,6 @@ body{
 	background-size: cover;
 	position: relative;
 }
-
-@media only screen and (max-width: 1000px){
-	.img-container{
-		background-attachment: scroll;
-		background-position: center;
-	}
 	
 img{
 	max-width: auto;
@@ -141,3 +135,8 @@ h6{
 	margin-right: 150px;
 }
 
+@media only screen and (max-width: 1000px){
+	.img-container{
+		background-attachment: scroll;
+		background-position: center;
+	}
