@@ -129,5 +129,10 @@ h6{
 	margin-left: 150px;
 	margin-right: 150px;
 }
-
+@media only screen and (width: 700px){
+	.img-container{
+		background-attachment: scroll;
+		background-position: center;
+	}
+}
 
