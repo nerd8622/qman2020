@@ -28,7 +28,7 @@ img{
 	background-size:auto;
 	postition: relative;
 }
-button{
+a{
 	width: 150px;
 	height: 75px;
 	background-color: White;
@@ -40,7 +40,7 @@ button{
 	margin-right: 100px;
 	border-radius: 12px;
 }
-button:hover{
+a:hover{
 	background-color: rgb(255, 96, 26);
 	color: white;
 }
