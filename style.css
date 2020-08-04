@@ -26,9 +26,7 @@ button:hover{
 	background-color: rgb(255, 96, 26);
 	color: white;
 }
-img{
-	
-}
+img{max-width: 100%;}
 h1, p{
 	text-align: center;
 	font-family: "Zilla Slab" , sans-serif;
@@ -36,16 +34,9 @@ h1, p{
 }
 h1 {font-size: 75px; text-decoration: underline;}
 p {font-size: 30px;}
-.orangeImg{
-  background-color: rgb(255, 96, 26);
-	text-align: center;
-	display: block;
-}
-.whiteImg{
-	text-align: center;
-	display: block;
-}
-@media only screen and (max-device-width: 1366px) {
+.oImg, .wImg{text-align: center; display: block;}
+.oImg{background-color: rgb(255, 96, 26);}
+@media only screen and (max-device-width: 1300px) {
   .img-container {
     background-attachment: scroll;
   }
