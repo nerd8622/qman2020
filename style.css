@@ -8,6 +8,7 @@ body, html {height: 100%; margin: 0;}
 	background-size: cover;
 	position: relative;
 }
+.logo{position: absolute;}
 button{
 	width: 150px;
 	height: 75px;
@@ -24,6 +25,9 @@ button{
 button:hover{
 	background-color: rgb(255, 96, 26);
 	color: white;
+}
+img{
+	
 }
 h1, p{
 	text-align: center;
