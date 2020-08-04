@@ -1,5 +1,7 @@
+/* remove margin on edges and set height to allow for img-container */
 body, html {height: 100%; margin: 0;}
 .img-container{
+	/* background image without parallax */
 	background-image: url(/assets/images/qman1.jpg);
 	height: 100%;
 	background-attachment: fixed;
@@ -19,6 +21,7 @@ button{
 	font-family: "Zilla Slab" , sans-serif;
 	border-radius: 12px;
 	position: relative;
+	/* place button on right side with offset from edges */
 	float: right;
 	margin-right: 10%; margin-top: 5%;
 }
@@ -26,18 +29,24 @@ button:hover{
 	background-color: rgb(255, 96, 26);
 	color: white;
 }
-img{max-width: 100%;}
 h1, p{
 	text-align: center;
 	font-family: "Zilla Slab" , sans-serif;
 	color: rgb(255, 96, 26);
 }
+/* two types of text: headers and paragraphs */
 h1 {font-size: 75px; text-decoration: underline;}
 p {font-size: 30px;}
+/* behavior of orange and white background-ed images */
 .oImg, .wImg{text-align: center; display: block;}
 .oImg{background-color: rgb(255, 96, 26);}
+/* dont let images resize window */
+img{max-width: 100%;}
+/* expand orange image */
+#o{width: 45%;}
 @media only screen and (max-device-width: 1300px) {
   .img-container {
+    /* add parallax for larger screens */
     background-attachment: scroll;
   }
 }
