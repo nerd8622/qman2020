@@ -1,11 +1,4 @@
-*{
-	margin: 0;
-	height: 100%;	
-}
-body{
-	width: 100%;
-}
-
+body, html {height: 100%; margin: 0;}
 .img-container{
 	background-image: url(qman1.jpg);
 	height: 100%;
@@ -15,134 +8,41 @@ body{
 	background-size: cover;
 	position: relative;
 }
-	
-img{
-	max-width: auto;
-	height: auto;
-}
-
-.logo-container{
-	background-image: url(2020Logo_transparent.png);
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size:auto;
-	postition: relative;
-}
 button{
 	width: 150px;
 	height: 75px;
 	background-color: White;
 	color: rgb(255, 96, 26);
 	border: 2px solid rgb(255, 96, 26); 
-	margin-top: -850px;
 	font-size: 20px;
 	font-family: "Zilla Slab" , sans-serif;
-	margin-right: 100px;
 	border-radius: 12px;
+	position: relative;
+	float: right;
+	margin-right: 10%; margin-top: 5%;
 }
 button:hover{
 	background-color: rgb(255, 96, 26);
 	color: white;
 }
-.logo2{
-	height: 100%;
-	background-repeat: no-repeat;
-	bottom: 20px;
-}
-h1{
+h1, p{
 	text-align: center;
 	font-family: "Zilla Slab" , sans-serif;
-	text-decoration: underline;
-	font-size: 75px;
 	color: rgb(255, 96, 26);
-	margin: auto;
-	position: relative;
-	top: 100px
 }
-p{
-	text-align: center;
-	font-family: "Zilla Slab" , sans-serif;
-	font-size: 30px;
-	color: rgb(255, 96, 26);
-	position:relative;
-	margin: 150px;
-	bottom: 800px;
-}
-h2{
-	text-align: center;
-	font-family: "Zilla Slab" , sans-serif;
-	font-size: 75px;
-	color: rgb(255, 96, 26);
-	position: relative;
-	text-decoration: underline;
-	top: 100px;
-}
-.center{
-	background-color: rgb(255, 96, 26);
+h1 {font-size: 75px; text-decoration: underline;}
+p {font-size: 30px;}
+.orangeImg{
+  background-color: rgb(255, 96, 26);
 	text-align: center;
 	display: block;
-	margin-top: -1500px;
 }
-.center2{
+.whiteImg{
 	text-align: center;
 	display: block;
-	margin-top: -600px
 }
-h3{
-	text-align: center;
-	font-family: "Zilla Slab" , sans-serif;
-	font-size: 30px;
-	color: rgb(255, 96, 26);
-	position: relative;
-	margin-top: -360px;
-	margin-left: 150px;
-	margin-right: 150px;
-}
-h4{
-	text-align: center;
-	font-family: "Zilla Slab" , sans-serif;
-	font-size: 75px;
-	color: rgb(255, 96, 26);
-	position: relative;
-	text-decoration: underline;
-	margin-top: -650px;
-	margin-bottom: -500px;
-}
-.tact{
-	text-align: center;
-	display: block;
-	margin-top: -900px;
-}
-h5{
-	text-align: center;
-	font-family: "Zilla Slab" , sans-serif;
-	font-size: 30px;
-	color: rgb(255, 96, 26);
-	position: relative;
-	margin-top: -360px;
-	margin-bottom: -500px;
-	margin-left: 150px;
-	margin-right: 150px;
-}
-h6{
-	text-align: center;
-	font-family: "Zilla Slab" , sans-serif;
-	font-size: 30px;
-	color: rgb(255, 96, 26);
-	position: relative;
-	margin-left: 150px;
-	margin-right: 150px;
-}
-
-@media screen and (min-width: 1540px) { 
-	.logo2{
-		background-image: url(2020Logo_transparent.png);
-	}
-}
-
-@media only screen and (max-width: 1000px){
-	.img-container{
-		background-attachment: scroll;
-		background-position: center;
-	}
+@media only screen and (max-device-width: 1366px) {
+  .img-container {
+    background-attachment: scroll;
+  }
 }
